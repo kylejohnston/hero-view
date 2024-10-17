@@ -1,0 +1,33 @@
+#imagePreview {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center; /* Center the content */
+}
+
+#imagePreview > div { /* Target the direct children of #imagePreview */
+    position: relative; /* To position the button */
+    width: 100%; 
+    /* max-width: 471.33; Adjust as needed */
+    margin-top: 10px; 
+    border-radius: 12px;
+    background: #efefef;
+}
+
+#ratio1 {
+    max-width: 471.33px;
+    aspect-ratio: 3 / 2.42; /* Set aspect ratio */
+}
+
+#ratio2 {
+    max-width: 349px;
+    aspect-ratio: 3 / 2.38; /* Set aspect ratio */
+}
+
+#imagePreview > div > .button { /* Target the button inside the divs */
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensure button is on top of the image */
+}
