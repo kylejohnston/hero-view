@@ -8,11 +8,11 @@
 #imagePreview > div { /* Target the direct children of #imagePreview */
     position: relative; /* To position the button */
     width: 100%; 
-    /* max-width: 471.33; Adjust as needed */
     margin-top: 10px; 
     border-radius: 12px;
-    background: #efefef;
+    background:#efefef; 
 }
+
 
 #ratio1 {
     max-width: 471.33px;
