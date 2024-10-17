@@ -8,7 +8,6 @@
 #imagePreview > div { /* Target the direct children of #imagePreview */
     position: relative; /* To position the button */
     width: 100%; 
-    margin-top: 10px; 
     border-radius: 12px;
     background:#efefef; 
 }
@@ -21,7 +20,7 @@
 
 #ratio2 {
     max-width: 349px;
-    aspect-ratio: 3 / 2.38; /* Set aspect ratio */
+    aspect-ratio: 3 / 2.4; /* Set aspect ratio */
 }
 
 #imagePreview > div > .button { /* Target the button inside the divs */
@@ -30,4 +29,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1; /* Ensure button is on top of the image */
+}
+
+#imagePreview > #ratio1 > .button { /* Target the button inside the divs */
+    bottom: 0px;
 }
