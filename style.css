@@ -1,3 +1,9 @@
+body {
+    font-family: Inter, Helvetica, Arial, sans-serif;
+    margin: 36px;
+    padding: 0;
+    background: #fff;
+}
 #imagePreview {
     display: flex;
     flex-direction: row;
@@ -32,5 +38,5 @@
 }
 
 #imagePreview > #ratio1 > .button { /* Target the button inside the divs */
-    bottom:
+    bottom: 0;
 }
